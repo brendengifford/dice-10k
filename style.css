@@ -1,0 +1,137 @@
+    body {
+        background: rgb(250,248,247);
+    }
+    img {
+        padding: 10px;
+    }
+    #scores {
+        color: black;
+        position: relative;
+        border: 1px solid black;
+        background: rgb(0,255,255);
+        clear: both;
+        top: -100px;
+    }
+    #main {
+        text-align: center;
+        position: relative;
+        height: 400px;
+        width: 800px;
+        padding-top: 80px;
+        float:left;
+        color: white;
+        background: url(felt.png) rgb(250,248,247)no-repeat center 20px;
+    }
+
+    #main a {
+        color: #000;
+        font: .9em helvetica, arial, sans-serif;
+    }
+
+    #main a:hover {
+        color: red;
+    }
+    #main img {
+        padding: 2px;
+        margin: 4px;
+        border-radius: 25px;
+    }
+    #main img:hover {
+        cursor: pointer;
+    }
+    #main ul {
+        margin-left: -37px;
+        list-style-type: none;
+    }
+    #main li {
+        margin: 0;
+        display:inline;
+    }
+    #stay {
+        display:none;
+    }
+    #play {
+        display:none;
+    }
+    #score {
+        display:none;
+    }
+    #faces {
+        height: 80px;
+    }
+    #popupContainer {
+        position: absolute;
+        width: 452px;
+        height: 12px;
+        top:102px;
+        left:100px;
+        display: none;
+        padding: 76px;
+    }
+    #scorePopup {
+        position: relative;
+        margin: auto;
+        background-color: rgb(250,255,173); opacity: 0.8;
+        width: 250px;
+        display: none;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid blue;
+        font: 2em helvetica, arial, sans-serif;
+        font-weight:bold;
+        color: blue;
+    }
+    #messagePopup {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: blue; 
+        display: none;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid rgb(250,255,173);
+        font: .9em helvetica, arial, sans-serif;
+        font-weight:bold;
+        color: rgb(250,255,173);
+    }
+    #showPlayerScore1 {
+        display: none;
+        padding: 10px;
+        position: relative;
+        float: left;
+    }
+    #showPlayerScore2 {
+        display: none;
+        padding: 10px;
+        position: relative;
+        float: left;
+    }
+    #showPlayerScore3 {
+        display: none;
+        padding: 10px;
+        position: relative;
+        float: left;
+    }
+    #showPlayerScore4 {
+        display: none;
+        padding: 10px;
+        position: relative;
+        float: left;
+    }
+    #showPlayerScore5 {
+        display: none;
+        padding: 10px;
+        position: relative;
+        float: left;
+    }
+    #showPlayerScore6 {
+        display: none;
+        padding: 10px;
+        position: relative;
+        float: left;
+    }
+    #rules {
+        position: absolute;
+        top:40px;
+        right: 40px;
+    }

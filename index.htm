@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+
+<head> 
+
+<title>Dice $10k</title> 
+
+<link rel="stylesheet" href="style.css">
+
+<script type="text/javascript" src="script.js"></script> 
+
+</head>
+
+<body onload="focus();">
+
+<div id="main">
+
+	<h1>Dice $10k</h1>
+
+	<ul id="faces">
+		<li><img src='faces/1.png' onClick="definePlayers(1)" id="select1"></li>
+		<li><img src='faces/2.png' onClick="definePlayers(2)" id="select2"></li>
+		<li><img src='faces/3.png' onClick="definePlayers(3)" id="select3"></li>
+		<li><img src='faces/4.png' onClick="definePlayers(4)" id="select4"></li>
+		<li><img src='faces/5.png' onClick="definePlayers(5)" id="select5"></li>
+		<li><img src='faces/6.png' onClick="definePlayers(6)" id="select6"></li>
+
+	</ul>
+
+    <span id="showPlayer"></span>
+	<span id="showScore">How many players?</span>
+	<!-- <p id="showSelected">&nbsp;<br></p> -->
+
+	<p>
+	<form>
+	<input type="button" id="play" value="Play!" onClick="start()">
+	<input type="button" id="score" value="Take $0" onClick="takeScore()"><br>
+	<input type="button" id="stay" value="Stay" onClick="keep()">
+	</form>
+	</p>
+
+	<a href="http://en.wikipedia.org/wiki/Dice_10000" id="rules" target="_blank">Rules</a>
+
+    
+
+    <div id="popupContainer">
+    <!-- <div id="diceOver">
+    </div>  -->
+     
+    
+    <span id="scorePopup">
+    </span> 
+    <span id="messagePopup">
+    </span> 
+    
+     
+    </div>  
+</div> <!--end div#main-->
+
+<div id="scores">
+    <div id="showPlayerScore1"></div>
+    <div id="showPlayerScore2"></div>
+    <div id="showPlayerScore3"></div>
+    <div id="showPlayerScore4"></div>
+    <div id="showPlayerScore5"></div>
+    <div id="showPlayerScore6"></div>
+</div><!--end div#scores-->
+
+
+</body> 
+
+</html>
